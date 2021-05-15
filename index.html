@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C85</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body class="body_background">
+
+	<center>
+
+	<h2 class="btn-primary">MINECRAFT</h2>
+
+	<div id="head_info" class="btn-danger">
+		<h3>Current Width  = <span id="current_width">30</span></h3>
+		<h3>Current Height  = <span id="current_height">30</span></h3>
+	</div>
+
+	<canvas width="1000" height="600" id="myCanvas"></canvas>
+	<br>
+	<br>
+	<button onclick="up();">Move Up</button>
+	<button onclick="down();">Move Down</button>
+	<button onclick="left();">Move Left</button>
+	<button onclick="right();">Move Right</button>
+	<br><br>
+	<button onclick="cloud();">Add a Cloud block</button>
+	<button onclick="darkgreen();">Add a Dark Green block</button>
+	<button onclick="ground();">Add a Ground block</button>
+	<button onclick="lightgreen();">Add a Light Green block</button>
+	<button onclick="roof();">Add a Roof block</button>
+	<button onclick="trunk();">Add a Trunk block</button>
+	<button onclick="unique();">Add a Unique block</button>
+	<button onclick="wall();">Add a Wall block</button>
+	<button onclick="yellowwall();">Add a Yellow Wall block </button>
+	<br>
+	<br>
+	<button onclick="plus();">Increase block size</button>
+	<button onclick="minus()">Decrease block size</button>
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
